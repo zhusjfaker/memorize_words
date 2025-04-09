@@ -11,7 +11,9 @@ import SwiftUI
 struct memorize_wordsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
+
+

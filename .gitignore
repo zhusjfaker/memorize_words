@@ -1,0 +1,43 @@
+# Xcode
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+xcuserdata/
+
+# 构建产物
+build/
+DerivedData/
+# 如果你用 SwiftPM，可以忽略 .build 文件夹
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# macOS / 系统杂项
+.DS_Store
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+
+# 包体 / 符号文件
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Fastlane（可根据需要忽略某些输出）
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# 其他可能的临时文件
+*.log
+*.tmp
+*.idea/
+*.pyc
